@@ -1,0 +1,19 @@
+/*asterisk wildcard selector to override server default*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: blueviolet;
+}
+
+main {
+    background-color: chartreuse;
+}
+
+footer {
+    background-color: darkred;
+}
