@@ -1,3 +1,6 @@
+/*google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
 /*asterisk wildcard selector to override server default*/
 * {
     padding: 0;
@@ -20,6 +23,7 @@ body {
 header {
     background-color: blueviolet;
     flex: .3 0 auto;
+    font-family: 'Vina Sans', sans-serif;
 }
 
 /*main content*/
