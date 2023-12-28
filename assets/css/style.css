@@ -22,7 +22,11 @@ body {
 /*header*/
 header {
     background-color: blueviolet;
-    flex: .3 0 auto;
+    flex: .1 0 auto;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+h1 {
     font-family: 'Vina Sans', sans-serif;
 }
 
