@@ -95,7 +95,21 @@ main {
 
 /*footer*/
 footer {
-    background-color: rgb(80, 84, 80);
+    background-color: rgb(255, 255, 255);
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a
 }
 
 /*media query: tablets and larger (768px and up) */
