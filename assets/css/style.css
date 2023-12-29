@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color: #3a3a3a;
+    color: #000000;
 }
 
 
@@ -38,6 +38,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+    text-decoration-line: none;
 }
 
 #menu {
@@ -86,11 +87,55 @@ nav {
 
 /*main content*/
 main {
-    background-color: rgba(114, 240, 150, 0.744);
+    background-color: rgba(183, 167, 78, 0.744);
+    /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*footer*/
 footer {
-    background-color: rgb(3, 92, 11);
+    background-color: rgb(80, 84, 80);
+}
+
+/*media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*main content*/
+    main {
+        margin-top: 79px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
