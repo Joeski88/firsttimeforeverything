@@ -1,6 +1,7 @@
 /*google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
 
+
 /*asterisk wildcard selector to override server default*/
 * {
     padding: 0;
@@ -21,8 +22,8 @@ body {
 
 /*header*/
 header {
-    background-color: mintcream;
-    padding: 0 1rem;
+    background-color: rgb(156, 143, 76);
+    padding: 0 0rem;
     position: fixed;
     font-family: 'Vina Sans', sans-serif;
     z-index: 99;
@@ -31,6 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    height: 12vh;
 }
 
 h1 {
@@ -39,6 +41,17 @@ h1 {
     letter-spacing: 2px;
     color: #252525;
     text-decoration-line: none;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: 'Long Cang', sans-serif;
+    letter-spacing: 2px;
+    color: #252525;
+    text-decoration-line: none;
+    font-size: medium;
+
 }
 
 #menu {
@@ -58,8 +71,8 @@ h1 {
 /*navbar styles with dropdown menu*/
 
 nav {
-    position: absolute;
-    background-color: mintcream;
+
+    background-color: rgb(156, 143, 76);
     font-family: 'Vina Sans', sans-serif;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -67,6 +80,7 @@ nav {
     left: 0;
     display: none;
     top: 100%;
+    text-decoration-color: #000000;
 
 }
 
@@ -87,15 +101,58 @@ nav {
 
 /*main content*/
 main {
-    background-color: rgba(183, 167, 78, 0.744);
+
     /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 45px;
+    background-color: rgb(234, 210, 115);
+    height: 100%;
+
 }
+
+/*hero section*/
+
+#hero {
+
+
+    background: url("../images/2-Single-Dad-Support-Group.webp");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+/*text for hero*/
+
+p {
+    text-decoration-color: #211717;
+    text-align: right;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+
+
+
+
 
 /*footer*/
 footer {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(156, 143, 76);
+    padding: 0 1rem;
+    font-family: 'Vina Sans', sans-serif;
+    width: 100%;
+    box-shadow: [verticle offset] 0px 15px 0px #211717;
+
+
 }
 
 #social-networks {
@@ -124,6 +181,9 @@ footer {
         padding-right: 1rem;
     }
 
+
+
+
     #menu {
         display: flex;
     }
@@ -137,7 +197,7 @@ footer {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 220%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
