@@ -279,15 +279,23 @@ label {
 }
 
 label:hover {
-    background: #c6c4be;
+    background: #a7a7a7;
 }
 
 .content {
-    background: #E2E5F6;
+    background: #565a45;
     padding: 10px 25px;
-    border: 1px solid #A7A7A7;
+    border: 3px solid #A7A7A7;
     margin: 0 0 1px 0;
     border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "long cang";
+    letter-spacing: 2px;
+    color: floralwhite;
+    
+    
+
 }
 
 input+label+.content {
