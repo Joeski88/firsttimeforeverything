@@ -19,6 +19,249 @@ body {
     color: #000000;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+/*header*/
+header {
+    background-color: rgb(156, 143, 76);
+    padding: 0 0rem;
+    position: fixed;
+    font-family: 'Vina Sans', sans-serif;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 12vh;
+}
+
+h1 {
+    font-family: 'Vina Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    text-decoration-line: none;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: 'Long Cang', sans-serif;
+    letter-spacing: 2px;
+    color: #252525;
+    text-decoration-line: none;
+    font-size: medium;
+
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/*navbar styles with dropdown menu*/
+
+nav {
+
+    background-color: rgb(156, 143, 76);
+    font-family: 'Vina Sans', sans-serif;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    left: 0;
+    top: 100%;
+    text-decoration-color: #000000;
+
+}
+
+/*nav toggle*/
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+
+/*main content*/
+main {
+
+    /*make main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+    margin-top: 45px;
+    background-color: rgb(234, 210, 115);
+    height: 100%;
+
+}
+
+/*hero section*/
+
+#hero {
+
+
+    background: url("../images/2-Single-Dad-Support-Group.webp");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+/*text for hero*/
+
+p {
+    text-decoration-color: #211717;
+    text-align: right;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+#youtube{
+    width: 80%;
+    min-height: 400px;
+}
+
+
+
+
+
+
+
+/*footer*/
+footer {
+    background-color: rgb(156, 143, 76);
+    padding: 0 1rem;
+    font-family: 'Vina Sans', sans-serif;
+    width: 100%;
+    box-shadow: 10px 5px 5px #3a3a3a inset;
+
+
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a
+}
+
+/*media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /*header*/
+    nav {
+        display: block;
+        
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+
+
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 220%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*main content*/
+    main {
+        margin-top: 79px;
+    }
+
+    #hero {
+
+
+        
+        flex-direction: row;
+        height: 100vh;
+        
+    }
+
+    #youtube{
+        width: 50%;
+        min-height: 600px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+  /*google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+
+/*asterisk wildcard selector to override server default*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*general-styles*/
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*generic project styles*/
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /*header*/
 header {
@@ -139,6 +382,12 @@ p {
 }
 
 
+#youtube{
+    width: 80%;
+    min-height: 400px;
+}
+
+
 
 
 
@@ -150,7 +399,7 @@ footer {
     padding: 0 1rem;
     font-family: 'Vina Sans', sans-serif;
     width: 100%;
-    box-shadow: [verticle offset] 0px 15px 0px #211717;
+    box-shadow: 10px 5px 5px #3a3a3a inset;
 
 
 }
@@ -175,7 +424,7 @@ footer {
     /*header*/
     nav {
         display: block;
-        position: relative;
+        
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
@@ -205,6 +454,20 @@ footer {
     /*main content*/
     main {
         margin-top: 79px;
+    }
+
+    #hero {
+
+
+        
+        flex-direction: row;
+        height: 100vh;
+        
+    }
+
+    #youtube{
+        width: 50%;
+        min-height: 600px;
     }
 }
 
