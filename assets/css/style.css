@@ -1,12 +1,22 @@
-/*google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
-
-
 /*asterisk wildcard selector to override server default*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/*google-fonts-styles*/
+
+.vina-sans-regular {
+    font-family: "Vina Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.long-cang-regular {
+    font-family: "Long Cang", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*general-styles*/
@@ -21,6 +31,8 @@ body {
 
 a {
     text-decoration: none;
+    color: #000000;
+    letter-spacing: 2px;
 }
 
 
@@ -32,7 +44,7 @@ header {
     font-family: 'Vina Sans', sans-serif;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #252525;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -41,12 +53,11 @@ header {
 
 h1 {
     font-family: 'Vina Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
     color: #252525;
     text-decoration-line: none;
-    padding-left: 15px;
-    padding-top: 10px;
+    padding-left: 25px;
+    padding-top: 15px;
 }
 
 h2 {
@@ -54,7 +65,7 @@ h2 {
     letter-spacing: 2px;
     color: #252525;
     text-decoration-line: none;
-    font-size: medium;
+    font-size: larger;
 
 }
 
@@ -134,261 +145,27 @@ main {
 
 /*text for hero*/
 
-p {
-    text-decoration-color: #211717;
-    text-align: right;
+div {
+    color: #211717;
     font-weight: bolder;
     font-style: italic;
-}
-
-
-#youtube{
-    width: 80%;
-    min-height: 400px;
-}
-
-
-
-
-
-
-
-/*footer*/
-footer {
-    background-color: rgb(156, 143, 76);
-    padding: 0 1rem;
-    font-family: 'Vina Sans', sans-serif;
-    width: 100%;
-    box-shadow: 10px 5px 5px #3a3a3a inset;
-
+    font-size: 30px;
 
 }
 
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a
-}
-
-/*media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-
-    /*header*/
-    nav {
-        display: block;
-        
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-
-
-
-    #menu {
-        display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 220%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /*main content*/
-    main {
-        margin-top: 79px;
-    }
-
-    #hero {
-
-
-        
-        flex-direction: row;
-        height: 100vh;
-        
-    }
-
-    #youtube{
-        width: 50%;
-        min-height: 600px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
-    }
-}
-
-  /*google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
-
-
-/*asterisk wildcard selector to override server default*/
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/*general-styles*/
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /*generic project styles*/
-    color: #000000;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-/*header*/
-header {
-    background-color: rgb(156, 143, 76);
-    padding: 0 0rem;
-    position: fixed;
-    font-family: 'Vina Sans', sans-serif;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    height: 12vh;
-}
-
-h1 {
-    font-family: 'Vina Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-    text-decoration-line: none;
-    padding-left: 15px;
-    padding-top: 10px;
-}
-
-h2 {
-    font-family: 'Long Cang', sans-serif;
-    letter-spacing: 2px;
-    color: #252525;
-    text-decoration-line: none;
-    font-size: medium;
-
-}
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
-
-#menu>li {
-    margin-bottom: 1em;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/*navbar styles with dropdown menu*/
-
-nav {
-
-    background-color: rgb(156, 143, 76);
-    font-family: 'Vina Sans', sans-serif;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    padding: 0 1rem;
-    left: 0;
-    display: none;
-    top: 100%;
-    text-decoration-color: #000000;
-
-}
-
-/*nav toggle*/
-
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-}
-
-
-/*main content*/
-main {
-
-    /*make main element take up any surplus space to push footer down*/
-    flex: 1 0 auto;
-    margin-top: 45px;
-    background-color: rgb(234, 210, 115);
-    height: 100%;
-
-}
-
-/*hero section*/
-
-#hero {
-
-
-    background: url("../images/2-Single-Dad-Support-Group.webp");
-    background-size: cover;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+#youtube {
+    width: 60%;
+    min-height: 500px;
     align-self: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    align-items: center;
-    justify-content: center;
-}
-
-/*text for hero*/
-
-p {
-    text-decoration-color: #211717;
-    text-align: right;
-    font-weight: bolder;
-    font-style: italic;
 }
 
 
-#youtube{
-    width: 80%;
-    min-height: 400px;
+.text {
+    width: 50px;
+    margin-left: 10px;
+    padding: 0;
 }
-
-
-
 
 
 
@@ -399,7 +176,7 @@ footer {
     padding: 0 1rem;
     font-family: 'Vina Sans', sans-serif;
     width: 100%;
-    box-shadow: 10px 5px 5px #3a3a3a inset;
+    box-shadow: 2px 2px 2px #3a3a3a inset;
 
 
 }
@@ -424,7 +201,7 @@ footer {
     /*header*/
     nav {
         display: block;
-        
+
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
@@ -459,13 +236,13 @@ footer {
     #hero {
 
 
-        
+
         flex-direction: row;
         height: 100vh;
-        
+
     }
 
-    #youtube{
+    #youtube {
         width: 50%;
         min-height: 600px;
     }
@@ -475,4 +252,48 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
+
+
+/*styling for hints tips and hacks*/
+
+input {
+    display: none;
+}
+
+label {
+    display: block;
+    padding: 8px 22px;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    background: #6b6d55;
+    border-radius: 15px;
+    color: #373535;
+    transition: ease .5s;
+    text-align: center;
+    height: 100px;
+    border-color: antiquewhite;
+    padding-top: 40px;
+    font-family: "long cang";
+    font-size: 30px;
+}
+
+label:hover {
+    background: #c6c4be;
+}
+
+.content {
+    background: #E2E5F6;
+    padding: 10px 25px;
+    border: 1px solid #A7A7A7;
+    margin: 0 0 1px 0;
+    border-radius: 3px;
+}
+
+input+label+.content {
+    display: none;
+}
+
+input:checked+label+.content {
+    display: block;
 }
