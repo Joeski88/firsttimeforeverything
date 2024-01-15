@@ -59,7 +59,8 @@ h1 {
     color: #252525;
     text-decoration-line: none;
     padding-left: 25px;
-    padding-top: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -117,6 +118,17 @@ nav {
     font-size: 2rem;
 }
 
+/*subheading styles*/
+
+#subheading {
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    font-family: 'Long Cang', sans-serif;
+    letter-spacing: 2px;
+    color: #252525;
+
+}
+
 
 /*main content*/
 main {
@@ -162,7 +174,7 @@ div {
 
 #youtube {
     width: 60%;
-    min-height: 500px;
+    min-height: 300px;
     align-self: center;
 }
 
@@ -173,13 +185,14 @@ div {
 
 
 .text1 {
-    width: 50px;
-    text-align: center;
+    
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .text2 {
-    width: 50px;
-    text-align: center;
+    text-align: right;
     
 }
 
@@ -217,11 +230,13 @@ footer {
     nav {
         display: block;
         box-shadow: none;
-        width: fit-content;
+        width: auto;
         padding-right: 1rem;
     }
 
-
+    #subheading {
+        width: fit-content;
+    }
 
 
     #menu {
@@ -234,12 +249,17 @@ footer {
 
     .nav-toggle-label {
         display: none;
+
     }
 
     #logo {
-        font-size: 220%;
+        font-size: 180%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+
+    #h2 {
+        display: none;
     }
 
     /*main content*/
@@ -258,7 +278,7 @@ footer {
 
     #youtube {
         width: 50%;
-        min-height: 600px;
+        min-height: 300px;
     }
 }
 
