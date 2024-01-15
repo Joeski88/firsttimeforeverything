@@ -59,7 +59,7 @@ h1 {
     color: #252525;
     text-decoration-line: none;
     padding-left: 25px;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 h2 {
@@ -99,6 +99,7 @@ nav {
     top: 100%;
     text-decoration-color: #000000;
     position: absolute;
+    display: none;
 
 }
 
@@ -145,6 +146,7 @@ main {
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
+   
 }
 
 /*text for hero*/
@@ -162,6 +164,11 @@ div {
     width: 60%;
     min-height: 500px;
     align-self: center;
+}
+
+.youtube {
+    aspect-ratio: 16 / 9;
+    width: 100%;
 }
 
 
@@ -209,7 +216,6 @@ footer {
     /*header*/
     nav {
         display: block;
-
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
