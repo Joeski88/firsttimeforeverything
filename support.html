@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- favicon --->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Vina+Sans&display=swap" rel="stylesheet">
+
+
+
     <title>Support</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -35,6 +47,37 @@
     </header>
 
     <main>
+
+        <div class="comtainer">           
+            
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="textarea" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Location</label>
+                <select id="country" name="country">
+                    <option value="greatbritain">Great Britain</option>
+                    <option value="europe">Europe</option>
+                    <option value="usa">USA</option>
+                    <option value="mars">Mars</option>
+                    <option value="africa">Africa</option>
+                    <option value="oceania">Oceania</option>
+                    <option value="atlantis">Atlantis</option>
+                    <option value="scotland">Scotland</option>
+                    <option value="other">Other; e.g the dog house, the galapogos islands...</option>
+                </select>
+
+                <label for="subject">Tell Us How Your Getting On...</label>
+                <textarea id="subject" name="subject" placeholder="talk to us, tell us how your feeling, whatever it is, it's good to talk..." style="height:200px" ></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
 
     </main>
 
