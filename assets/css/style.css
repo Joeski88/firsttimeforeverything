@@ -19,6 +19,12 @@
     font-style: normal;
 }
 
+.Wix-Made-for-display {
+    font-family: "wix madefor display", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /*general-styles*/
 
 body {
@@ -64,7 +70,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Long Cang', sans-serif;
+    font-family: 'wix madefor display', sans-serif;
     letter-spacing: 2px;
     color: #252525;
     text-decoration-line: none;
@@ -92,7 +98,7 @@ h2 {
 nav {
 
     background-color: rgb(156, 143, 76);
-    font-family: 'Vina Sans', sans-serif;
+    font-family: 'wix madefor display', sans-serif;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
@@ -123,7 +129,7 @@ nav {
 #subheading {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-    font-family: 'Long Cang', sans-serif;
+    font-family: 'wix madefor display', sans-serif;
     letter-spacing: 2px;
     color: #252525;
 
@@ -168,6 +174,7 @@ div {
     font-weight: bolder;
     font-style: italic;
     font-size: 30px;
+    font-family: 'wix madefor display'
 
 }
 
@@ -202,7 +209,7 @@ div {
 footer {
     background-color: rgb(156, 143, 76);
     padding: 0 1rem;
-    font-family: 'Vina Sans', sans-serif;
+    font-family: 'wix madefor display', sans-serif;
     width: 100%;
     box-shadow: 2px 2px 2px #3a3a3a inset;
 
@@ -276,7 +283,7 @@ footer {
 
     #youtube {
         width: 560px;
-        height: 315;
+        height: 315px;
         min-height: 300px;
     }
 }
@@ -307,9 +314,10 @@ label {
     height: 100px;
     border-color: antiquewhite;
     padding-top: 40px;
-    font-family: "long cang";
+    font-family: "wix madefor display";
     font-size: 30px;
     padding-bottom: 20px;
+    
 }
 
 label:hover {
@@ -324,10 +332,12 @@ label:hover {
     border-radius: 3px;
     font-size: 20px;
     text-align: center;
-    font-family: "long cang";
+    font-family: "wix madefor display";
     letter-spacing: 2px;
     color: floralwhite;
-    
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
     
 
 }
