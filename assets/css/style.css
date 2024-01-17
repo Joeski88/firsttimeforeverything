@@ -93,25 +93,19 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*navbar styles with dropdown menu*/
-
+/* Navbar styles with dropdown toggle */
 nav {
-
-    background-color: rgb(156, 143, 76);
-    font-family: 'wix madefor display', sans-serif;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    padding: 0 1rem;
-    left: 0;
-    top: 100%;
-    text-decoration-color: #000000;
     position: absolute;
+    background-color: rgb(156, 143, 76);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-
+    top: 100%;
 }
 
-/*nav toggle*/
-
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -135,6 +129,10 @@ nav {
 
 }
 
+header h2 {
+    display: none;
+}
+
 
 /*main content*/
 main {
@@ -144,7 +142,9 @@ main {
     margin-top: 45px;
     background-color: rgb(234, 210, 115);
     height: 100%;
-
+    margin: 2vh;
+    margin-top: 15vh;
+    
 }
 
 /*hero section*/
@@ -164,6 +164,7 @@ main {
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
+    
    
 }
 
@@ -237,10 +238,13 @@ footer {
     nav {
         display: block;
         box-shadow: none;
-        width: auto;
+        width: fit-content;
         padding-right: 1rem;
     }
-
+   
+    header h2{
+        display: block;
+    }
     
 
 
@@ -258,7 +262,7 @@ footer {
     }
 
     #logo {
-        font-size: 180%;
+        font-size: 100%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -270,15 +274,12 @@ footer {
     /*main content*/
     main {
         margin-top: 79px;
+        border-color: #565a45;
     }
 
     #hero {
-
-
-
         flex-direction: row;
         height: 100vh;
-
     }
 
     #youtube {
@@ -297,13 +298,11 @@ footer {
 
 /*styling for hints tips and hacks*/
 
-input {
-    display: none;
-}
+
 
 label {
     display: block;
-    padding: 8px 22px;
+    padding: 4px 4px;
     margin: 0 0 1px 0;
     cursor: pointer;
     background: #6b6d55;
@@ -311,13 +310,9 @@ label {
     color: #373535;
     transition: ease .5s;
     text-align: center;
-    height: 100px;
     border-color: antiquewhite;
-    padding-top: 40px;
     font-family: "wix madefor display";
-    font-size: 30px;
-    padding-bottom: 20px;
-    
+    font-size: 30px; 
 }
 
 label:hover {
@@ -342,12 +337,17 @@ label:hover {
 
 }
 
+input [type="checkbox"]{
+    display: none;
+}
+
 input+label+.content {
     display: none;
 }
 
 input:checked+label+.content {
     display: block;
+    
 }
 
 
