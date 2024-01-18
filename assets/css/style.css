@@ -39,20 +39,21 @@ body {
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #fa0000;
     letter-spacing: 2px;
+    text-shadow: #000000 10px;
 }
 
 
 /*header*/
 header {
-    background-color: rgb(156, 143, 76);
+    background-color: rgb(91, 90, 90);
     padding: 0 0rem;
     position: fixed;
     font-family: 'Vina Sans', sans-serif;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #252525;
+    box-shadow: 0 2px 2px #ff0000;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -62,7 +63,7 @@ header {
 h1 {
     font-family: 'Vina Sans', sans-serif;
     letter-spacing: 6px;
-    color: #252525;
+    color: #ff0000;
     text-decoration-line: none;
     padding-left: 25px;
     padding-top: 30px;
@@ -72,7 +73,7 @@ h1 {
 h2 {
     font-family: 'wix madefor display', sans-serif;
     letter-spacing: 2px;
-    color: #252525;
+    color: #ff0000;
     text-decoration-line: none;
     font-size: larger;
     text-align: center;
@@ -97,11 +98,11 @@ h2 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: rgb(156, 143, 76);
+    background-color: rgb(91, 90, 90);
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #ff0000;
     display: none;
     top: 100%;
 }
@@ -123,10 +124,10 @@ nav {
 
 #subheading {
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #ff0000;
     font-family: 'wix madefor display', sans-serif;
     letter-spacing: 2px;
-    color: #252525;
+    color: #ff0000;
 
 }
 
@@ -152,14 +153,25 @@ main {
 
 }
 
+section {
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'wix madefor display', sans-serif;
+
+
+}
+
 /*add scrolling gallery to home page*/
 
 div.scroll-container {
-    background-color: #333;
+    background-color: #000000;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
-    object-fit: fill;
+
 
 }
 
@@ -174,13 +186,18 @@ div.scroll-container img {
 
 }
 
-
+#gallery {
+    object-fit: scale-down;
+    max-width: 320px;
+    max-height: 320px;
+}
 
 #youtube1 {
     width: 60%;
     min-height: 300px;
     align-self: center;
     object-fit: scale-down;
+    padding-left: 25px;
 
 }
 
@@ -189,6 +206,7 @@ div.scroll-container img {
     width: 100%;
     max-height: 300px;
     max-width: 300px;
+    padding-left: 25px;
 }
 
 #youtube2 {
@@ -210,18 +228,17 @@ div.scroll-container img {
 .text1 {
 
     float: left;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 100px;
+    padding: 30px;
     font-size: x-large;
-    
+    font-family: 'wix madefor display', sans-serif;
+
 }
 
 .text2 {
     text-align: right;
-    padding-right: 15px;
-    padding-top: 20px;
+    padding: 30px;
     font-size: xx-large;
+    font-family: 'wix madefor display', sans-serif;
 
 }
 
@@ -230,17 +247,18 @@ aside {
     padding: 15px;
     text-align: right;
     flex-direction: row;
+    font-family: 'wix madefor display', sans-serif;
 }
 
 
 
 /*footer*/
 footer {
-    background-color: rgb(156, 143, 76);
+    background-color: rgb(91, 90, 90);
     padding: 0 1rem;
     font-family: 'wix madefor display', sans-serif;
     width: 100%;
-    box-shadow: 2px 2px 2px #3a3a3a inset;
+    box-shadow: 2px 2px 2px #f00707 inset;
 
 
 }
@@ -256,7 +274,7 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a
+    color: #ff0000
 }
 
 /*media query: tablets and larger (768px and up) */
@@ -342,20 +360,24 @@ footer {
 /*styling for hints tips and hacks*/
 
 
+main {
+    padding-top: 70px;
+}
 
 label {
     display: block;
     padding: 4px 4px;
     margin: 0 0 1px 0;
     cursor: pointer;
-    background: #6b6d55;
+    background: #313131;
     border-radius: 15px;
-    color: #373535;
+    color: #000000;
     transition: ease .5s;
     text-align: center;
-    border-color: antiquewhite;
+    border-color: rgb(255, 0, 0);
     font-family: "wix madefor display";
     font-size: 30px;
+
 }
 
 label:hover {
@@ -363,9 +385,9 @@ label:hover {
 }
 
 .content {
-    background: #565a45;
+    background: #000000;
     padding: 10px 25px;
-    border: 3px solid #A7A7A7;
+    border: 3px solid #ff0000;
     margin: 0 0 1px 0;
     border-radius: 3px;
     font-size: 20px;
@@ -376,7 +398,8 @@ label:hover {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 15px;
-
+    padding-top: 50px;
+    list-style-type: none;
 
 }
 
@@ -413,7 +436,7 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #7b823c;
+    background-color: #c93333;
     color: rgb(156, 143, 76);
     padding: 12px 20px;
     border: none;
@@ -429,7 +452,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
-    background-color: #646353;
+    background-color: #000000;
     padding: 20px;
 
 }
