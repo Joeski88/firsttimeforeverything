@@ -135,6 +135,7 @@ header h2 {
 
 
 /*main content*/
+
 main {
 
     /*make main element take up any surplus space to push footer down*/
@@ -147,38 +148,18 @@ main {
     
 }
 
-/*hero section*/
+/*add scrolling gallery to home page*/
 
-#hero {
-
-
-    background: url("../images/2-Single-Dad-Support-Group.webp");
-    background-size: cover;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    align-items: center;
-    justify-content: center;
-    
-   
-}
-
-/*text for hero*/
-
-div {
-    color: #211717;
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 30px;
-    font-family: 'wix madefor display'
-
-}
-
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
 
 #youtube {
     width: 60%;
@@ -244,6 +225,7 @@ footer {
    
     header h2{
         display: block;
+        padding-right: 25px;
     }
     
 
