@@ -83,6 +83,7 @@ h2 {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+
 }
 
 #menu>li {
@@ -140,12 +141,15 @@ main {
 
     /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 45px;
-    background-color: rgb(234, 210, 115);
+    background-color: rgb(0, 0, 0);
+    border-color: #ff0000;
     height: 100%;
-    margin: 2vh;
-    margin-top: 15vh;
-    
+    border: 20px;
+    font-family: 'wix madefor display', sans-serif;
+    color: #A7A7A7;
+
+
+
 }
 
 /*add scrolling gallery to home page*/
@@ -155,34 +159,77 @@ div.scroll-container {
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
-  }
-  
-  div.scroll-container img {
-    padding: 10px;
-  }
+    object-fit: fill;
 
-#youtube {
+}
+
+div.scroll-container img {
+    padding: 10px;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+
+}
+
+
+
+#youtube1 {
     width: 60%;
     min-height: 300px;
     align-self: center;
+    object-fit: scale-down;
+
 }
 
-.youtube {
+.youtube1 {
     aspect-ratio: 16 / 9;
     width: 100%;
+    max-height: 300px;
+    max-width: 300px;
 }
 
+#youtube2 {
+    width: 60%;
+    min-height: 300px;
+    align-self: center;
+    object-fit: scale-down;
+
+
+}
+
+.youtube2 {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-height: 300px;
+    max-width: 300px;
+}
 
 .text1 {
-    
-    text-align: left;
+
+    float: left;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 100px;
+    font-size: x-large;
+    
 }
 
 .text2 {
     text-align: right;
-    
+    padding-right: 15px;
+    padding-top: 20px;
+    font-size: xx-large;
+
+}
+
+aside {
+    float: right;
+    padding: 15px;
+    text-align: right;
+    flex-direction: row;
 }
 
 
@@ -222,12 +269,12 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
-   
-    header h2{
+
+    header h2 {
         display: block;
         padding-right: 25px;
     }
-    
+
 
 
     #menu {
@@ -277,6 +324,20 @@ footer {
     }
 }
 
+/*media screen styling for scrolling gallery*/
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
 
 /*styling for hints tips and hacks*/
 
@@ -294,7 +355,7 @@ label {
     text-align: center;
     border-color: antiquewhite;
     font-family: "wix madefor display";
-    font-size: 30px; 
+    font-size: 30px;
 }
 
 label:hover {
@@ -315,11 +376,11 @@ label:hover {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 15px;
-    
+
 
 }
 
-input [type="checkbox"]{
+input [type="checkbox"] {
     display: none;
 }
 
@@ -329,7 +390,7 @@ input+label+.content {
 
 input:checked+label+.content {
     display: block;
-    
+
 }
 
 
@@ -337,36 +398,38 @@ input:checked+label+.content {
 
 /* Style inputs with type="text", select elements and textareas */
 
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px;  
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
     background-color: #7b823c;
     color: rgb(156, 143, 76);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
     background-color: #96b171;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
+}
+
+/* Add a background color and some padding around the form */
+.container {
     border-radius: 5px;
     background-color: #646353;
     padding: 20px;
-    
-  }
+
+}
