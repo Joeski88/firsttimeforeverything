@@ -35,13 +35,6 @@ This is a website support group for single dads anywhere in the world.
     -   #### Imagery
         -   Ive tried to use positive imagery throughout the site to make it visually attractive and to keep the visitor engaged. i used a scrolling gallery to really hammer home the beauty of being a single dad.
 
-*   ### Wireframes
-
-    -   Home Page Wireframe - [View](https://github.com/)
-
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
@@ -74,8 +67,10 @@ This is a website support group for single dads anywhere in the world.
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [VScode:] (https://code.visualstudio.com/) Used as my IDE as struggled to use codeanywhere.
-
+1. [VScode:] (https://code.visualstudio.com/) 
+    - Used as my IDE as struggled to use codeanywhere.
+1. [Favicon:](https://favicon.io/) 
+    - Used to download favicon for each page.
 
 
 ## Testing
@@ -149,32 +144,41 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   The nav bar sometimes goes out of position , to the left of the drop down menu. tried to fix. ongoing.
+-   youtube videos dont follow the class size specifications. videos on home page do though.
+-   Some screen sizes make a white bar appear on the right side of the home page. further testing needed.
 
 ## Deployment
+
+The site has been deployed to be hosted on GitHub pages. (please see the live link above). Below are the deployment instructions:
+
+1. On GitHub, navigate to the repository you wish to deploy from.
+2. Under your repository name, click Settings.
+3. Navigate to the GitHub Pages section.
+4. Use the Select source drop-down menu to select master branch.
+5. Click Save
 
 ### GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Joeski88/firsttimeforeverything.git)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://github.com/Joeski88/firsttimeforeverything.git) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Joeski88/firsttimeforeverything.git)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository] (https://github.com/Joeski88/firsttimeforeverything.git)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -188,7 +192,7 @@ $ git clone https://github.com/joeski88/firsttimeforeverything
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/Joeski88/firsttimeforeverything.git
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -200,26 +204,35 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
+1. 
+
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+1. Codeanywhere.
+2. github.
+3. VS Code.
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+
 
 ### Content
 
--   All content was written by the developer.
+-   The content is a mixture of the developers own content, You Tube videos, and various links, listed below;
+    1. https://www.gingerbread.org.uk/
+    2. https://www.dadshouse.org.uk/
+    3. https://www.workingdads.co.uk/
+
 
 -   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
--   All Images were created by the developer.
+-   All images were found via searches on google images.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
+1. Matt Purchase at learning people, has been there for me throughout the course so far and has been a great help and calming presence.
+2. Gareth Mcgirr my mentor, deserves alot of thanks, as i required quite alot of help and guidance along the way. He's been very patient with me.
+3. https://www.w3schools.com/css/default.asp very helpful link to help with code issues.
+4. The help team online with code institute, always fast and have been able to help every time i called upon them.
