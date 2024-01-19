@@ -1,39 +1,225 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Daddio's Website</h1>
 
-Welcome,
+[View the live project here.](https://github.com/Joeski88/firsttimeforeverything.git)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is a website support group for single dads anywhere in the world.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+<h2 align="center"><img src="assets/images/menu-promo-daughter-hugging-dad.jpeg"></h2>
 
-## Codeanywhere Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+-   ### User stories
 
-`python3 -m http.server`
+    -   #### First Time Visitor Goals
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+    -   #### Returning Visitor Goals
 
-`http_server`
+        1. As a Returning Visitor, I want to find information and help on being a single dad. 
+        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+        3. As a Returning Visitor, I want to find community links.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to check to see if there are any newly added life hacks, inspriational quotes and activities to do.
+        2. As a Frequent User, I want to check to see if there are any new replies to support plea's.
+        3. As a Frequent User, I want to see if any more financial information has been added and to contact the support groups involved.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+-   ### Design
+    -   #### Colour Scheme
+        -   The three main colours used are black, red, and dark grey. I chose these to give the site a striking view and maske the text easy to see.
+    -   #### Typography
+        -   Vina sans, long cang and winx made for display are the fonts used in this page. Winx made for display font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. I like it as it is a clean font and is suitable for all types of content. Vina sans is used in the website name and nav bar options as it is bold, unique and in theory, remembered. Long cang is used for small pieces of text to add a bit of flair and relaxed kind of vibe. 
+    -   #### Imagery
+        -   Ive tried to use positive imagery throughout the site to make it visually attractive and to keep the visitor engaged. i used a scrolling gallery to really hammer home the beauty of being a single dad.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*   ### Wireframes
 
-To log into the Heroku toolbelt CLI:
+    -   Home Page Wireframe - [View](https://github.com/)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    -   Mobile Wireframe - [View](https://github.com/)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    -   Contact Us Page Wireframe - [View](https://github.com/)
 
----
+## Features
 
-Happy coding!
+-   Responsive on all device sizes.
+
+-   Scrolling Gallery on home page.
+
+-   Motivational Youtube videos from fellow single dads.
+
+-   Hacks and activities for dads and kids.
+
+-   submission form in the style of an "agony aunt".
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for social media tags/links.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [VScode:] (https://code.visualstudio.com/) Used as my IDE as struggled to use codeanywhere.
+
+
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+
+### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is videos and pictures to emphasise the reason beind the website.
+        2. The main points are made immediately with short but intense you tube videos, and positive heartwarming pictures.
+        3. The user has several options. take in all the content on the home page to add a feel good factor. the next option is to open the tips and hacks page. in here is content to educate inform and promote postive thought. and the third choice is to submit a form in the support page. this goes directy to the admin who can respond directly and aid in support.
+
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will navigate too clearly.
+        2. The navbar is always available at the top of the page to navigate to where they want to get to.
+        3. On the Contact Us Page, after a form response is submitted, you are redirected to a thank you page just to aknowledge the form has been recieved.
+
+    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+        1. The headlines on the home page are clear and consice and should allow the visitor to fully understand the point of the site.
+        2. The user will need to scroll to the bottom of any page on the site to locate social media links in the footer.
+        3. At the bottom of the Support page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+
+-   #### Returning Visitor Goals
+
+    1. As a Returning Visitor, I want to find information and help on being a single dad. 
+
+        1. These are clearly shown in the content tabs in page 2. any help and support is clearly labelled and ordered.
+        2. This content would be refreshed and recycled regularly.
+
+    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+        1. The navigation bar clearly highlights the "Support" Page. this shows a form for the visitor to fill out and send to us.
+        2. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+        3. In the "tips & hacks" page, there is a tab that reveals the best support groups around for the community. the links are usable and will redirect them to the individual page.
+        
+
+    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page. In there they can decide if they want to join the group.
+      
+
+-   #### Frequent User Goals
+
+    1. As a Frequent User, I want to check to see if there are any newly added life hacks, inspriational quotes and activities to do.
+
+        1. The user would already be comfortable with the website layout and can easily navigate their way through the site to find what they need.
+
+    2. As a Frequent User, I want to check to see if there are any new replies to support plea's.
+
+        1. The user would already be comfortable with the website layout and can easily click the support link.
+        2. The support replies will be done through email directly. 
+
+    3. As a Frequent User, I want to see if any more financial information has been added and to contact the support groups involved.
+        1. The financial content and advice will be frequently refreshed.
+        2. When the user submits a reply, they will automatically be added to an email list and be alerted by email when the content is updated.
+
+### Further Testing
+
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone13, iPhone14 & iPhone15 and galaxy fold.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+-   The nav bar sometimes goes out of position , to the left of the drop down menu. tried to fix. ongoing.
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/joeski88/firsttimeforeverything
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits
+
+### Code
+
+-   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+### Content
+
+-   All content was written by the developer.
+
+-   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+
+### Media
+
+-   All Images were created by the developer.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.

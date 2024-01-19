@@ -97,7 +97,6 @@ h2 {
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: absolute;
     background-color: rgb(91, 90, 90);
     width: 100%;
     left: 0;
@@ -186,8 +185,7 @@ div.scroll-container img {
 
 }
 
-#gallery {
-    object-fit: scale-down;
+.gallery {
     max-width: 320px;
     max-height: 320px;
 }
@@ -201,12 +199,17 @@ div.scroll-container img {
 
 }
 
+iframe {
+
+    margin-left: 10vh;
+}
+
 .youtube1 {
     aspect-ratio: 16 / 9;
     width: 100%;
     max-height: 300px;
     max-width: 300px;
-    padding-left: 25px;
+
 }
 
 #youtube2 {
@@ -223,6 +226,7 @@ div.scroll-container img {
     width: 100%;
     max-height: 300px;
     max-width: 300px;
+    display: flex;
 }
 
 .text1 {
@@ -235,10 +239,11 @@ div.scroll-container img {
 }
 
 .text2 {
-    text-align: right;
+    text-align: center;
     padding: 30px;
     font-size: xx-large;
     font-family: 'wix madefor display', sans-serif;
+    margin-top: 30px;
 
 }
 
@@ -408,7 +413,18 @@ label:hover {
 
 }
 
-input [type="checkbox"] {
+.content div {
+    padding-top: 20px;
+}
+
+#hackscontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 80vh;
+}
+
+input[type="checkbox"] {
     display: none;
 }
 
@@ -441,7 +457,7 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #c93333;
+    background-color: #ff0000;
     color: rgb(156, 143, 76);
     padding: 12px 20px;
     border: none;
