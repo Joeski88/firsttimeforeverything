@@ -41,7 +41,6 @@ a {
     text-decoration: none;
     color: #fa0000;
     letter-spacing: 2px;
-    text-shadow: #000000 10px;
 }
 
 
@@ -475,5 +474,11 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #000000;
     padding: 20px;
+    max-width: 75%;
+    margin-right: 12vh;
+    margin-left: 12vh;
+}
 
+#logo {
+    justify-content: center;
 }
