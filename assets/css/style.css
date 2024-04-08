@@ -189,77 +189,36 @@ div.scroll-container img {
     max-height: 320px;
 }
 
-#youtube1 {
-    width: 60%;
-    min-height: 300px;
-    align-self: center;
-    object-fit: scale-down;
-    padding-left: 25px;
 
-}
 
-iframe {
-
-    margin-left: 10vh;
-}
-
-.youtube1 {
+.youtubevideo {
     aspect-ratio: 16 / 9;
     width: 100%;
     max-height: 400px;
     max-width: 400px;
-
-}
-
-#youtube2 {
-    width: 60%;
     min-height: 300px;
     align-self: center;
     object-fit: scale-down;
-
-
 }
 
-.youtube2 {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    max-height: 400px;
-    max-width: 400px;
+.videowrapper {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
-.text1 {
+.quotelist {
 
     float: left;
     padding: 30px;
     font-size: x-large;
     font-family: 'wix madefor display', sans-serif;
-
 }
 
-.text2 {
-    text-align: center;
-    padding: 30px;
-    font-size: xx-large;
-    font-family: 'wix madefor display', sans-serif;
-    margin-top: 30px;
-
+.quotecontainer {
+    padding-bottom: 5rem;
 }
-
-aside {
-    padding: 15px;
-    flex-direction: row;
-    font-family: 'wix madefor display', sans-serif;
-}
-
-.quotes {
-    text-align: center;
-    text-decoration: wavy;
-    font-family: 'long cang';
-    font-size: larger;
-}
-
-
 
 /*footer*/
 footer {
@@ -302,8 +261,6 @@ footer {
         padding-right: 25px;
     }
 
-
-
     #menu {
         display: flex;
     }
@@ -342,6 +299,22 @@ footer {
         width: 560px;
         height: 315px;
         min-height: 300px;
+    }
+
+    .quotecontainer {
+        display: flex;
+        flex-direction: row;
+        padding-left: 8rem;
+        padding-right: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .quotereverse {
+        flex-direction: row-reverse;
+    }
+
+    .quotelist {
+        width: 60%;
     }
 }
 
@@ -436,6 +409,12 @@ input:checked+label+.content {
 
 }
 
+.instagram-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 80vh;
+}
 
 /*support form box styles*/
 
