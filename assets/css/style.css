@@ -81,7 +81,6 @@ h2 {
     text-decoration-line: none;
     font-size: larger;
     text-align: center;
-
 }
 
 h3 {
@@ -95,7 +94,6 @@ h3 {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-
 }
 
 #menu>li {
@@ -132,25 +130,20 @@ nav {
 }
 
 /*subheading styles*/
-
 #subheading {
     width: 100%;
     box-shadow: 0 2px 2px #ff0000;
     font-family: 'wix madefor display', sans-serif;
     letter-spacing: 2px;
     color: #000000;
-
 }
 
 header h2 {
     display: none;
 }
 
-
 /*main content*/
-
 main {
-
     /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     color: rgb(94, 150, 196);
@@ -158,7 +151,6 @@ main {
     height: 100%;
     border: 20px;
     font-family: 'wix madefor display', sans-serif;
-    
 }
 
 
@@ -169,8 +161,6 @@ section {
     font-size: x-large;
     font-style: italic;
     font-family: 'wix madefor display', sans-serif;
-
-
 }
 
 /*add scrolling gallery to home page*/
@@ -180,8 +170,6 @@ div.scroll-container {
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
-
-
 }
 
 div.scroll-container img {
@@ -192,15 +180,12 @@ div.scroll-container img {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
-
 }
 
 .gallery {
     max-width: 320px;
     max-height: 320px;
 }
-
-
 
 .youtubevideo {
     aspect-ratio: 16 / 9;
@@ -220,7 +205,6 @@ div.scroll-container img {
 }
 
 .quotelist {
-
     float: left;
     padding: 30px;
     font-size: x-large;
@@ -243,8 +227,6 @@ footer {
     font-family: 'wix madefor display', sans-serif;
     width: 100%;
     box-shadow: 2px 2px 2px #000000 inset;
-
-
 }
 
 #social-networks {
@@ -259,6 +241,125 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: #4e4d4d
+}
+
+/*styling for hints tips and hacks*/
+
+main {
+    padding-top: 70px;
+}
+
+label {
+    display: block;
+    padding: 4px 4px;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    background: #3c13ce;
+    border-radius: 15px;
+    color: #ffffff;
+    transition: ease .5s;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    font-family: "wix madefor display";
+    font-size: 30px;
+}
+
+label:hover {
+    background:#918fe6; 
+}
+
+.content {
+    background: rgb(97, 82, 236); 
+    padding: 10px 25px;
+    border: 3px solid #000000;
+    margin: 0 0 1px 0;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "wix madefor display";
+    letter-spacing: 2px;
+    color: rgb(71, 71, 71);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    padding-top: 50px;
+    list-style-type: none;
+}
+
+.content div {
+    padding-top: 20px;
+}
+
+.hackscontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 80vh;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input+label+.content {
+    display: none;
+}
+
+input:checked+label+.content {
+    display: block;
+}
+
+.instagram-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 80vh;
+}
+
+/*support form box styles*/
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: hsl(76, 8%, 49%);
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #96b171;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 20px;
+    max-width: 75%;
+    margin-right: 12vh;
+    margin-left: 12vh;
+}
+
+#logo {
+    justify-content: center;
 }
 
 /*media query: tablets and larger (768px and up) */
@@ -289,7 +390,6 @@ footer {
 
     .nav-toggle-label {
         display: none;
-
     }
 
     #logo {
@@ -357,128 +457,4 @@ footer {
     .responsive {
         width: 100%;
     }
-}
-
-
-/*styling for hints tips and hacks*/
-
-
-main {
-    padding-top: 70px;
-}
-
-label {
-    display: block;
-    padding: 4px 4px;
-    margin: 0 0 1px 0;
-    cursor: pointer;
-    background: #313131;
-    border-radius: 15px;
-    color: #000000;
-    transition: ease .5s;
-    text-align: center;
-    border-color: rgb(255, 0, 0);
-    font-family: "wix madefor display";
-    font-size: 30px;
-
-}
-
-label:hover {
-    background: #a7a7a7;
-}
-
-.content {
-    background: #000000;
-    padding: 10px 25px;
-    border: 3px solid #ff0000;
-    margin: 0 0 1px 0;
-    border-radius: 3px;
-    font-size: 20px;
-    text-align: center;
-    font-family: "wix madefor display";
-    letter-spacing: 2px;
-    color: floralwhite;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 15px;
-    padding-top: 50px;
-    list-style-type: none;
-
-}
-
-.content div {
-    padding-top: 20px;
-}
-
-.hackscontent {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    min-height: 80vh;
-}
-
-input[type="checkbox"] {
-    display: none;
-}
-
-input+label+.content {
-    display: none;
-}
-
-input:checked+label+.content {
-    display: block;
-
-}
-
-.instagram-media {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    min-height: 80vh;
-}
-
-/*support form box styles*/
-
-/* Style inputs with type="text", select elements and textareas */
-
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #ff0000;
-    color: rgb(156, 143, 76);
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #96b171;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-    border-radius: 5px;
-    background-color: #000000;
-    padding: 20px;
-    max-width: 75%;
-    margin-right: 12vh;
-    margin-left: 12vh;
-}
-
-#logo {
-    justify-content: center;
 }
