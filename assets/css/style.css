@@ -4,36 +4,28 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /*google-fonts-styles*/
-
 .vina-sans-regular {
     font-family: "Vina Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
 .long-cang-regular {
     font-family: "Long Cang", cursive;
     font-weight: 400;
     font-style: normal;
 }
-
 .Wix-Made-for-display {
     font-family: "wix madefor display", cursive;
     font-weight: 400;
     font-style: normal;
 }
-
 /*general-styles*/
-
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
     /*generic project styles*/
-
     color: #000000;
 }
 
@@ -152,7 +144,6 @@ main {
     border: 20px;
     font-family: 'wix madefor display', sans-serif;
 }
-
 
 section {
     padding-top: 100px;
