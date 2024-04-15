@@ -153,13 +153,13 @@ header h2 {
 main {
     /*make main element take up any surplus space to push footer down*/
     color: rgb(94, 150, 196);
-    border-color: #ff0000;
     height: 100%;
     border: 20px;
     font-family: 'wix madefor display', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 section {
@@ -274,7 +274,7 @@ label {
     transition: ease .5s;
     text-align: center;
     border-color: rgb(3, 3, 3);
-    font-family: "wix madefor display";
+    font-family: 'wix madefor display';
     font-size: 30px;
     width: 90%;
 }
@@ -291,7 +291,7 @@ label:hover {
     border-radius: 15px;
     font-size: 20px;
     text-align: center;
-    font-family: "wix madefor display";
+    font-family: 'wix madefor display';
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
     padding-left: 20px;
@@ -348,6 +348,7 @@ input:checked+label+.content {
     align-items: center;
     text-align: center;
     width: 100%;
+    font-family: 'wix madefor display';
 }
 .finalmessage {
     padding-top: 30px;
@@ -392,6 +393,7 @@ input[type=submit]:hover {
     max-width: 75%;
     margin-right: 12vh;
     margin-left: 12vh;
+    font-family: 'wix madefor display';
 }
 
 #logo {
