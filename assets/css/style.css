@@ -15,17 +15,17 @@
     font-weight: 400;
     font-style: normal;
 }
-.Wix-Made-for-display {
-    font-family: "wix madefor display", cursive;
-    font-weight: 400;
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
     font-style: normal;
-}
+  }
 /*general-styles*/
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*generic project styles*/
+/*generic project styles*/
     color: #000000;
     margin-top: auto;
 }
@@ -70,10 +70,11 @@ h1 {
     text-decoration-line: none;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-left: 3rem;
 }
 
 h2 {
-    font-family: 'wix madefor display', sans-serif;
+    font-family: "Kanit", sans-serif;
     letter-spacing: 2px;
     color: #000000;
     text-decoration-line: none;
@@ -85,20 +86,24 @@ h2 {
     padding: 5px 5px 5px;
     display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-top: 5rem;
     font-size: xxx-large;
+    font-family: "Kanit", sans-serif;
 }
 h3 {
     padding: 15%;  
     float: left;
     font-size: 4vh;
     font-style: italic;
+    font-family: "Kanit", sans-serif;
+    margin-left: 2rem;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+    font-family: "Kanit", sans-serif;
 }
 
 #menu>li {
@@ -121,6 +126,7 @@ nav {
     top: 12vh;
     position: absolute;
     border-radius: 6px;
+    margin-right: 2rem;
 }
 
 /* Nav toggle */
@@ -140,7 +146,7 @@ nav {
 #subheading {
     width: 100%;
     box-shadow: 0 2px 2px #000000;
-    font-family: 'wix madefor display', sans-serif;
+    font-family: "Kanit", sans-serif;
     letter-spacing: 2px;
     color: #000000;
 }
@@ -155,11 +161,12 @@ main {
     color: rgb(94, 150, 196);
     height: 100%;
     border: 20px;
-    font-family: 'wix madefor display', sans-serif;
+    font-family: "Kanit", sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -168,7 +175,7 @@ section {
     padding-bottom: 15px;
     font-size: x-large;
     font-style: italic;
-    font-family: 'wix madefor display', sans-serif;
+    font-family: "Kanit", sans-serif;
 }
 
 /*add scrolling gallery to home page*/
@@ -216,7 +223,7 @@ div.scroll-container img {
     float: left;
     padding: 30px;
     font-size: x-large;
-    font-family: 'wix madefor display', sans-serif;
+    font-family: "Kanit", sans-serif;
 }
 
 .quotecontainer {
@@ -232,9 +239,11 @@ div.scroll-container img {
 footer {
     background-color: rgb(97, 82, 236);
     padding: 0 1rem;
-    font-family: 'wix madefor display', sans-serif;
+    font-family: "Kanit", sans-serif;
     width: 100%;
     box-shadow: 2px 2px 2px #000000 inset;
+    position: fixed;
+    bottom: 0px;
 }
 
 #social-networks {
@@ -260,7 +269,6 @@ footer {
 
 main {
     margin-bottom: 3vh;
-    align-content: center;
 }
 
 label {
@@ -274,7 +282,7 @@ label {
     transition: ease .5s;
     text-align: center;
     border-color: rgb(3, 3, 3);
-    font-family: 'wix madefor display';
+    font-family: "Kanit", sans-serif;
     font-size: 30px;
     width: 90%;
 }
@@ -291,7 +299,7 @@ label:hover {
     border-radius: 15px;
     font-size: 20px;
     text-align: center;
-    font-family: 'wix madefor display';
+    font-family: "Kanit", sans-serif;
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
     padding-left: 20px;
@@ -316,7 +324,7 @@ label:hover {
     min-height: 80vh;
     max-width: 1200px;
     width: 90%;
-
+    font-family: "Kanit", sans-serif;
 }
 
 input[type="checkbox"] {
@@ -339,6 +347,15 @@ input:checked+label+.content {
     align-items: center;
 }
 
+.slimerecipe {
+    align-content: center;
+}
+
+.helpfullinks {
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
 /*support form box styles*/
 
 /* Style inputs with type="text", select elements and textareas */
@@ -348,13 +365,14 @@ input:checked+label+.content {
     align-items: center;
     text-align: center;
     width: 100%;
-    font-family: 'wix madefor display';
+    font-family: "Kanit", sans-serif;
 }
 .finalmessage {
     padding-top: 30px;
     font-size: x-large;
     display: flex;
     justify-content: center;
+    font-family: "Kanit", sans-serif;
 }
 
 input[type=text],
@@ -393,7 +411,7 @@ input[type=submit]:hover {
     max-width: 75%;
     margin-right: 12vh;
     margin-left: 12vh;
-    font-family: 'wix madefor display';
+    font-family: "Kanit", sans-serif;
 }
 
 #logo {
