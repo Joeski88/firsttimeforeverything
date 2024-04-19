@@ -85,6 +85,7 @@ h2 {
 
 .subtitle {
     display: none;
+    padding-left: 1rem;
 }
 
 .pageheaders {
@@ -529,6 +530,11 @@ input[type=submit]:hover {
     .responsive {
         /* width: 49.99999%; */
         margin: 6px 0;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
     }
 }
 
