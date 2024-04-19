@@ -4,30 +4,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /*google-fonts-styles*/
 .vina-sans-regular {
     font-family: "Vina Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .long-cang-regular {
     font-family: "Long Cang", cursive;
     font-weight: 400;
     font-style: normal;
 }
+
 .kanit-light {
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
-  }
+}
+
 /*general-styles*/
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-/*generic project styles*/
+    /*generic project styles*/
     color: #000000;
     margin-top: auto;
+    width: 100%;
 }
 
 a {
@@ -77,6 +82,7 @@ h2 {
     text-decoration-line: none;
     font-size: larger;
 }
+
 .subtitle {
     display: none;
 }
@@ -89,8 +95,9 @@ h2 {
     font-size: xxx-large;
     font-family: "Kanit", sans-serif;
 }
+
 h3 {
-    padding: 15%;  
+    padding: 15%;
     float: left;
     font-size: 4vh;
     font-style: italic;
@@ -171,11 +178,11 @@ main {
 
 section {
     padding-top: 100px;
-    padding-left: 15px;
     padding-bottom: 15px;
     font-size: x-large;
     font-style: italic;
     font-family: "Kanit", sans-serif;
+    width: 100%;
 }
 
 /*add scrolling gallery to home page*/
@@ -185,6 +192,7 @@ div.scroll-container {
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
+    width: 100%;
 }
 
 div.scroll-container img {
@@ -255,7 +263,6 @@ footer {
 
 #social-networks i {
     font-size: 160%;
-    padding: 5%;
     color: #4e4d4d;
     width: 100%;
 }
@@ -287,11 +294,11 @@ label {
 }
 
 label:hover {
-    background:#918fe6; 
+    background: #918fe6;
 }
 
 .content {
-    background: rgb(97, 82, 236); 
+    background: rgb(97, 82, 236);
     padding: 10px 25px;
     border: 3px solid #000000;
     margin: 0 0 1px 0;
@@ -325,6 +332,7 @@ label:hover {
     width: 90%;
     font-family: "Kanit", sans-serif;
 }
+
 .hacksimages {
     width: 100%;
 }
@@ -332,6 +340,7 @@ label:hover {
 .hackstitles {
     font-family: "Kanit", sans-serif;
 }
+
 input[type="checkbox"] {
     display: none;
 }
@@ -374,6 +383,7 @@ input:checked+label+.content {
     width: 100%;
     font-family: "Kanit", sans-serif;
 }
+
 .finalmessage {
     padding-top: 30px;
     font-size: x-large;
