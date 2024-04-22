@@ -39,7 +39,12 @@ This is a website support group for single dads anywhere in the world.
 ## Features
 
 -   Responsive on all device sizes.
-
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/indexscreenshot.png.jpeg">
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/hacksscreenshot.png.jpeg">
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/hacksscreenshot2.png.jpeg">
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/supportscreenshot.png.jpeg">
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/thankyouscreenshot.png.jpeg">
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/thankyouscreenshot2.png.jpeg">
 -   Scrolling Gallery on home page.
 
 -   Motivational Youtube videos from fellow single dads.
