@@ -39,19 +39,28 @@ This is a website support group for single dads anywhere in the world.
 ## Features
 
 -   Responsive on all device sizes.
-<img src="assets/images/screenshots4readme/responsivnessscreenshots/indexscreenshot.png.jpeg">
-<img src="assets/images/screenshots4readme/responsivnessscreenshots/hacksscreenshot.png.jpeg">
-<img src="assets/images/screenshots4readme/responsivnessscreenshots/hacksscreenshot2.png.jpeg">
-<img src="assets/images/screenshots4readme/responsivnessscreenshots/supportscreenshot.png.jpeg">
-<img src="assets/images/screenshots4readme/responsivnessscreenshots/thankyouscreenshot.png.jpeg">
-<img src="assets/images/screenshots4readme/responsivnessscreenshots/thankyouscreenshot2.png.jpeg">
+
+<p><img src="assets/images/screenshots4readme/responsivnessscreenshots/indexscreenshot.png">
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/hacksscreenshot.png">
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/hacksscreenshot2.png">
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/supportscreenshot.png">
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/thankyouscreenshot.png">
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/thankyouscreenshot2.png"></p>
+
 -   Scrolling Gallery on home page.
+<p><img src="assets/images/screenshots4readme/functioncreenshots/function1.png"></p>
 
 -   Motivational Youtube videos from fellow single dads.
+<p><img src="assets/images/screenshots4readme/functioncreenshots/function2.png"></p>
 
--   Hacks and activities for dads and kids.
+-   Drop down tabs, featuring Hacks and activities for dads and kids, financial advice and helpful links.
+<p><img src="assets/images/screenshots4readme/functioncreenshots/function3.png">
+<img src="assets/images/screenshots4readme/functioncreenshots/function4.png">
+<img src="assets/images/screenshots4readme/functioncreenshots/function5.png"></p>
 
--   submission form in the style of an "agony aunt".
+-   Submission form in the style of an "agony aunt".
+<p><img src="assets/images/screenshots4readme/functioncreenshots/function6.png">
+<img src="assets/images/screenshots4readme/functioncreenshots/function7.png"></p>
 
 ## Technologies Used
 
@@ -60,7 +69,7 @@ This is a website support group for single dads anywhere in the world.
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used
+### Other Tools Used
 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.

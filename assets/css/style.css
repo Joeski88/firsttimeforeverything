@@ -260,6 +260,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    flex-direction: row;
 }
 
 #social-networks i {
