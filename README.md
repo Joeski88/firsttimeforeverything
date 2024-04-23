@@ -93,11 +93,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-<img src="assets/images/screenshots4readme/index.htmldebug.jpg"><img src="assets/images/screenshots4readme/supportpagepass.jpg"><img src="assets/images/screenshots4readme/tipsvalidation.jpg"><img src="assets/images/screenshots4readme/thankyoupagevalidatorpass.jpg"><img src="assets/images/screenshots4readme/tipsvalidationlast.jpg">
+<img src="assets/images/screenshots4readme/index.htmldebug.jpg"><img src="assets/images/screenshots4readme/indexval.png"><img src="assets/images/screenshots4readme/supportval.png"><img src="assets/images/screenshots4readme/hacksval.png"><img src="assets/images/screenshots4readme/thankyouval.png">
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-<img src="assets/images/screenshots4readme/cssvalidatorpass.jpg">
+<img src="assets/images/screenshots4readme/cssval.png">
 
 ### Testing User Stories from User Experience (UX) Section
 
