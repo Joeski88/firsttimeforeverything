@@ -4,7 +4,7 @@
 
 This is a website support group for single dads anywhere in the world.
 
-<h2 align="center"><img src="assets/images/menu-promo-daughter-hugging-dad.jpeg"></h2>
+<h2 align="center"><img src="assets/images/screenshots4readme/responsivnessscreenshots/pp1mockup.png"></h2>
 
 ## User Experience (UX)
 
@@ -29,40 +29,47 @@ This is a website support group for single dads anywhere in the world.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The three main colours used are black, red, and dark grey. I chose these to give the site a striking view and maske the text easy to see.
+        -   The three main colours used are white and blue. I chose these to make the site bright, positive and easy to read.
     -   #### Typography
-        -   Vina sans, long cang and winx made for display are the fonts used in this page. Winx made for display font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. I like it as it is a clean font and is suitable for all types of content. Vina sans is used in the website name and nav bar options as it is bold, unique and in theory, remembered. Long cang is used for small pieces of text to add a bit of flair and relaxed kind of vibe. 
+        -   Vina sans and Kanit light are the fonts used in this page. Kanit light font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. I like it as it is a clean font and is suitable for all types of content. Vina sans is used in the website name and nav bar options as it is bold, unique and in theory, remembered. 
     -   #### Imagery
-        -   Ive tried to use positive imagery throughout the site to make it visually attractive and to keep the visitor engaged. i used a scrolling gallery to really hammer home the beauty of being a single dad.
+        -   Ive tried to use positive imagery throughout the site to make it visually attractive and to keep the visitor engaged. I used a scrolling gallery to really hammer home the beauty of being a single dad.
 
 
 ## Features
 
--   Responsive on all device sizes.
+### Responsive on all device sizes.
 
-<p><img src="assets/images/screenshots4readme/responsivnessscreenshots/indexscreenshot.png">
+#### Home page responsivness mock up.
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/indexscreenshot.png">
+
+#### Hack's and tips page mock up 1.
 <img src="assets/images/screenshots4readme/responsivnessscreenshots/hacksscreenshot.png">
+
+#### Hack's and tips page mock up 2.
 <img src="assets/images/screenshots4readme/responsivnessscreenshots/hacksscreenshot2.png">
+
+#### Support page mock up.
 <img src="assets/images/screenshots4readme/responsivnessscreenshots/supportscreenshot.png">
+
+#### Thank you page screen shots.
 <img src="assets/images/screenshots4readme/responsivnessscreenshots/thankyouscreenshot.png">
-<img src="assets/images/screenshots4readme/responsivnessscreenshots/thankyouscreenshot2.png"></p>
+<img src="assets/images/screenshots4readme/responsivnessscreenshots/thankyouscreenshot2.png">
 
--   Scrolling Gallery on home page.
-<p><img src="assets/images/screenshots4readme/functioncreenshots/function1.png"></p>
+### Scrolling Gallery on home page.
+<img src="assets/images/screenshots4readme/functioncreenshots/function1.png">
 
--   Motivational Youtube videos from fellow single dads.
-<p><img src="assets/images/screenshots4readme/functioncreenshots/function2.png"></p>
+### Motivational Youtube videos from fellow single dads.
+<img src="assets/images/screenshots4readme/functioncreenshots/function2.png">
 
--   Drop down tabs, featuring Hacks and activities for dads and kids, financial advice and helpful links.
-<p><img src="assets/images/screenshots4readme/functioncreenshots/function3.png">
+### Drop down tabs, featuring Hacks and activities for dads and kids, financial advice and helpful links.
+<img src="assets/images/screenshots4readme/functioncreenshots/function3.png">
 <img src="assets/images/screenshots4readme/functioncreenshots/function4.png">
-<img src="assets/images/screenshots4readme/functioncreenshots/function5.png"></p>
+<img src="assets/images/screenshots4readme/functioncreenshots/function5.png">
 
--   Submission form in the style of an "agony aunt".
-<p><img src="assets/images/screenshots4readme/functioncreenshots/function6.png">
-<img src="assets/images/screenshots4readme/functioncreenshots/function7.png"></p>
-
-## Technologies Used
+### Submission form in the style of an "agony aunt".
+<img src="assets/images/screenshots4readme/functioncreenshots/function6.png">
+<img src="assets/images/screenshots4readme/functioncreenshots/function7.png">
 
 ### Languages Used
 
@@ -73,18 +80,20 @@ This is a website support group for single dads anywhere in the world.
 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-1. [Google Fonts:](https://fonts.google.com/)
+2. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
+3. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for social media tags/links.
-1. [Git](https://git-scm.com/)
+4. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+5. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [VScode:] (https://code.visualstudio.com/) 
+6. [VScode:] (https://code.visualstudio.com/) 
     - Used as my IDE as struggled to use codeanywhere.
-1. [Favicon:](https://favicon.io/) 
+7. [Favicon:](https://favicon.io/) 
     - Used to download favicon for each page.
+8. [techsini:] (https://techsini.com/multi-mockup)
+    - Techsini was used to create the mock upo for the cover picture of the readme. 
 
 
 ## Testing
@@ -93,10 +102,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-<img src="assets/images/screenshots4readme/index.htmldebug.jpg"><img src="assets/images/screenshots4readme/indexval.png"><img src="assets/images/screenshots4readme/supportval.png"><img src="assets/images/screenshots4readme/hacksval.png"><img src="assets/images/screenshots4readme/thankyouval.png">
+### HTML page validation debug screen shot
+<img src="assets/images/screenshots4readme/index.htmldebug.jpg">
+
+### Home page validation
+<img src="assets/images/screenshots4readme/indexval.png">
+
+### Hacks page validation
+<img src="assets/images/screenshots4readme/hacksval.png">
+
+### Support page validation
+<img src="assets/images/screenshots4readme/supportval.png">
+
+### Thank you page validation
+<img src="assets/images/screenshots4readme/thankyouval.png">
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
+### CSS page validation
 <img src="assets/images/screenshots4readme/cssval.png">
 
 ### Testing User Stories from User Experience (UX) Section
@@ -107,7 +130,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is videos and pictures to emphasise the reason beind the website.
         2. The main points are made immediately with short but intense you tube videos, and positive heartwarming pictures.
-        3. The user has several options. take in all the content on the home page to add a feel good factor. the next option is to open the tips and hacks page. in here is content to educate inform and promote postive thought. and the third choice is to submit a form in the support page. this goes directy to the admin who can respond directly and aid in support.
+        3. The user has several options. Take in all the content on the home page to add a feel good factor. The next option is to open the tips and hacks page. In here is content to educate, inform and promote postive thought. The third choice is to submit a form in the support page. This goes directy to the admin who can respond directly and aid in support.
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
@@ -123,21 +146,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find information and help on being a single dad. 
-
-        1. These are clearly shown in the content tabs in page 2. any help and support is clearly labelled and ordered.
+        1. These are clearly shown in the content tabs in page 2. Any help and support is clearly labelled and ordered.
         2. This content would be refreshed and recycled regularly.
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
         1. The navigation bar clearly highlights the "Support" Page. this shows a form for the visitor to fill out and send to us.
         2. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
         3. In the "tips & hacks" page, there is a tab that reveals the best support groups around for the community. the links are usable and will redirect them to the individual page.
         
-
     3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
         1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page. In there they can decide if they want to join the group.
       
-
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added life hacks, inspriational quotes and activities to do.
@@ -162,9 +181,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   The nav bar sometimes goes out of position , to the left of the drop down menu. tried to fix. ongoing.
--   youtube videos dont follow the class size specifications. videos on home page do though.
--   Some screen sizes make a white bar appear on the right side of the home page. further testing needed.
+-   The nav bar sometimes goes out of position , to the left of the drop down menu. tried to fix. FIXED!!!!
+-   youtube videos dont follow the class size specifications. videos on home page do though. FIXED!!!
+-   Some screen sizes make a white bar appear on the right side of the home page. further testing needed. FIXED!!!
 
 ## Deployment
 
