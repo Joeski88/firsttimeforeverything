@@ -243,6 +243,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Credits
 
 1. Microsoft paint, to adjust the photos in the home page gallery to all be the right size.
+2. Github Pages; to allow me to make all neccessary changes needed.
 
 ### Code
 
