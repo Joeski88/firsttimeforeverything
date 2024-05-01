@@ -71,12 +71,10 @@ This is a website support group for single dads anywhere in the world.
 <img src="assets/images/screenshots4readme/functioncreenshots/function6.png">
 <img src="assets/images/screenshots4readme/functioncreenshots/function7.png">
 
-### Languages Used
+### Technologies Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
-### Other Tools Used
 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -88,12 +86,14 @@ This is a website support group for single dads anywhere in the world.
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 5. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-6. [VScode:] (https://code.visualstudio.com/) 
+6. [VScode:](https://code.visualstudio.com/) 
     - Used as my IDE as struggled to use codeanywhere.
 7. [Favicon:](https://favicon.io/) 
     - Used to download favicon for each page.
-8. [techsini:] (https://techsini.com/multi-mockup)
-    - Techsini was used to create the mock upo for the cover picture of the readme. 
+8. [techsini:](https://techsini.com/multi-mockup)
+    - Techsini was used to create the mock up for the cover picture of the readme. 
+9. [GitPod:](https://gitpod.io/workspaces)
+    - Finished my project by using Gitpod for all coding.
 
 
 ## Testing
@@ -192,7 +192,7 @@ The site has been deployed to be hosted on GitHub pages. (please see the live li
 1. On GitHub, navigate to the repository you wish to deploy from.
 2. Under your repository name, click Settings.
 3. Navigate to the GitHub Pages section.
-4. Use the Select source drop-down menu to select master branch.
+4. Use the Select source drop-down menu to select main branch.
 5. Click Save
 
 ### GitHub Pages
@@ -202,7 +202,7 @@ The project was deployed to GitHub Pages using the following steps...
 1. Log in to GitHub and locate the [GitHub Repository]( https://joeski88.github.io/firsttimeforeverything/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
+4. Under "Source", click the dropdown called "None" and select "Main Branch".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link]( https://joeski88.github.io/firsttimeforeverything/) in the "GitHub Pages" section.
 
